@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from models import Prompt, Playwright
+from .models import Prompt, Playwright
 
 # Create your views here.
 

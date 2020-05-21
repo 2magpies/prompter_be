@@ -19,5 +19,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('prompt.urls')),
+    path('', include('prompter_app.urls')),
 ]
